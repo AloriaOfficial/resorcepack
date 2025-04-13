@@ -1,0 +1,86 @@
+{
+      "item.howling_thunder.unsheathe": {
+           "sounds":[
+               {
+                 "name": "ppg:rw/item/howling_thunder/unsheathe",
+                 "volume": 0.5
+               }
+           ]
+      },
+      "item.howling_thunder.zap": {
+           "sounds":[
+               {
+                 "name": "ppg:rw/item/howling_thunder/zap",
+                 "volume": 0.5
+               }
+           ]
+      },
+      "item.ender_spitfire.bite": {
+           "sounds":[
+               {
+                 "name": "ppg:rw/item/ender_spitfire/bite1",
+                 "volume": 1
+               },
+               {
+                 "name": "ppg:rw/item/ender_spitfire/bite2",
+                 "volume": 1
+               }
+           ]
+      },
+      "item.emerald_justice.charge": {
+           "sounds":[
+               {
+                 "name": "ppg:rw/item/emerald_justice/charge",
+                 "volume": 1
+               }
+           ]
+      },
+      "item.emerald_justice.blast": {
+           "sounds":[
+               {
+                 "name": "ppg:rw/item/emerald_justice/blast",
+                 "volume": 1
+               }
+           ]
+      },
+      "boowomp": {
+           "sounds":[
+               {
+                 "name": "ppg:rw/boowomp",
+                 "volume": 1
+               }
+           ]
+      },
+      "we.item.partial_block": {
+           "sounds":[
+               {
+                 "name": "ppg:we/partial_block",
+                 "volume": 1
+               }
+           ]
+      },
+      "we.item.deflect_metallic": {
+           "sounds":[
+               {
+                 "name": "ppg:we/deflect_metallic",
+                 "volume": 1
+               }
+           ]
+      },
+      "we.item.deflect_nonmetallic": {
+           "sounds":[
+               {
+                 "name": "ppg:we/deflect_nonmetallic",
+                 "volume": 1
+               }
+           ]
+      },
+      "we.item.deflect_crystal": {
+           "sounds":[
+               {
+                 "name": "ppg:we/deflect_crystal",
+                 "volume": 1
+               }
+           ]
+      }
+}

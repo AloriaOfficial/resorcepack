@@ -1,0 +1,151 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+        {
+          "type": "select",
+          "property": "custom_model_data",
+          "cases": [
+            {
+              "when": "Xmas",
+              "model": {
+                "type": "select",
+                "property": "display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "gui"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/we/cutlass/skin_layer/xmas_gui"
+                    }
+                  },
+                  {
+                    "when": [
+                      "ground",
+                      "fixed"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/empty"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "condition",
+                  "property": "minecraft:using_item",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "ppg:item/we/cutlass/skin_layer/xmas"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "ppg:item/we/cutlass/skin_layer/xmas_blocking"
+                  }
+                }
+              }
+            },
+            {
+              "when": "amethyst",
+              "model": {
+                "type": "select",
+                "property": "display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "gui"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/we/cutlass/skin_layer/amethyst_gui"
+                    }
+                  },
+                  {
+                    "when": [
+                      "ground",
+                      "fixed"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/empty"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "condition",
+                  "property": "minecraft:using_item",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "ppg:item/we/cutlass/skin_layer/amethyst"
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "ppg:item/we/cutlass/skin_layer/amethyst_blocking"
+                  }
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "select",
+            "property": "display_context",
+              "cases": [
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed"
+                ],
+                "model": {
+                  "type": "model",
+                  "model": "ppg:item/empty"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "condition",
+              "property": "minecraft:using_item",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "ppg:item/we/cutlass/base/stone"
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "ppg:item/we/cutlass/base/stone_blocking"
+              }
+            }
+          }
+        },
+        {
+          "type": "select",
+          "property": "display_context",
+            "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "model",
+                "model": "ppg:item/we/cutlass/stone_gui"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "ppg:item/we/cutlass/stone"
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "ppg:item/we/cutlass/stone_blocking"
+            }
+          }
+        }
+    ]
+  }
+}

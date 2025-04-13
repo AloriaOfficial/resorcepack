@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "display": {
+      "thirdperson_righthand": {
+          "rotation": [ 40, -40, 135 ],
+          "translation": [ 2, 0, 0 ],
+          "scale": [ 2, 2, 1 ]
+      },
+      "thirdperson_lefthand": {
+          "rotation": [ 40, -40, 45 ],
+          "translation": [ 2, 0, 0 ],
+          "scale": [ 2, 2, 1 ]
+      },
+      "firstperson_righthand": {
+          "rotation": [ 0, 180, -45 ],
+          "translation": [ -3, 3, 0 ],
+          "scale": [ 1.2, 1.2, 1 ]
+      },
+      "firstperson_lefthand": {
+          "rotation": [ 0, 0, 45 ],
+          "translation": [ -3, 3, 0 ],
+          "scale": [ 1.2, 1.2, 1 ]
+      }
+    },
+    "textures": {
+      "layer0": "ppg:item/we/guardblade/base/wooden"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "ppg:item/we/boosting_bow/pulling_1"
+    }
+}

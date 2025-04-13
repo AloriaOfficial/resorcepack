@@ -1,0 +1,227 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+        {
+          "type": "select",
+          "property": "custom_model_data",
+          "cases": [
+            {
+              "when": "Xmas",
+              "model": {
+                "type": "select",
+                "property": "display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "gui"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/we/twinblade/skin_layer/xmas_gui"
+                    }
+                  },
+                  {
+                    "when": [
+                      "ground",
+                      "fixed"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/empty"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "custom_model_data",
+                  "entries": [
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "model",
+                        "model": "ppg:item/we/twinblade/skin_layer/xmas_spin1"
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "model",
+                        "model": "ppg:item/we/twinblade/skin_layer/xmas_spin2"
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "model",
+                        "model": "ppg:item/we/twinblade/skin_layer/xmas_heavy"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "model",
+                    "model": "ppg:item/we/twinblade/skin_layer/xmas"
+                  }
+                }
+              }
+            },
+            {
+              "when": "amethyst",
+              "model": {
+                "type": "select",
+                "property": "display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "gui"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/we/twinblade/skin_layer/amethyst_gui"
+                    }
+                  },
+                  {
+                    "when": [
+                      "ground",
+                      "fixed"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/empty"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "custom_model_data",
+                  "entries": [
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "model",
+                        "model": "ppg:item/we/twinblade/skin_layer/amethyst_spin1"
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "model",
+                        "model": "ppg:item/we/twinblade/skin_layer/amethyst_spin2"
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "model",
+                        "model": "ppg:item/we/twinblade/skin_layer/amethyst_heavy"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "model",
+                    "model": "ppg:item/we/twinblade/skin_layer/amethyst"
+                  }
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "select",
+            "property": "display_context",
+              "cases": [
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed"
+                ],
+                "model": {
+                  "type": "model",
+                  "model": "ppg:item/empty"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:range_dispatch",
+              "property": "custom_model_data",
+              "entries": [
+                {
+                  "threshold": 1,
+                  "model": {
+                    "type": "model",
+                    "model": "ppg:item/we/twinblade/base/wood_spin1"
+                  }
+                },
+                {
+                  "threshold": 2,
+                  "model": {
+                    "type": "model",
+                    "model": "ppg:item/we/twinblade/base/wood_spin2"
+                  }
+                },
+                {
+                  "threshold": 3,
+                  "model": {
+                    "type": "model",
+                    "model": "ppg:item/we/twinblade/base/wood_heavy"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "model",
+                "model": "ppg:item/we/twinblade/base/wood"
+              }
+            }
+          }
+        },
+        {
+          "type": "select",
+          "property": "display_context",
+            "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "model",
+                "model": "ppg:item/we/twinblade/golden_gui"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:range_dispatch",
+            "property": "custom_model_data",
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "model",
+                  "model": "ppg:item/we/twinblade/golden_spin1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "model",
+                  "model": "ppg:item/we/twinblade/golden_spin2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "model",
+                  "model": "ppg:item/we/twinblade/golden_heavy"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "ppg:item/we/twinblade/golden"
+            }
+          }
+        }
+    ]
+  }
+}

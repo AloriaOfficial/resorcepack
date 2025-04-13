@@ -1,0 +1,179 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_a.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ᔑ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_b.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ʖ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_c.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ᓵ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_d.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["⟍̅"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_e.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ᒷ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_f.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["⎓"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_g.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["˧"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_h.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["⍑"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_i.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["¦"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_j.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["⋮"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_k.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ꖌ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_l.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ꖎ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_m.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ᒲ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_n.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["リ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_o.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["𝙹"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_q.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ᑑ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_r.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["∷"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_s.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ᓭ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_t.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["ℸ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_u.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["⚍"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_v.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["⍊"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_w.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["∴"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_x.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["̇Ⳇ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_y.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["̇ǁ"]
+        },
+        {
+            "type": "bitmap",
+            "file": "ppg:font/galactic_z.png",
+            "ascent": 7,
+            "height": 8,
+            "chars": ["̇⨅"]
+        }
+    ]
+}

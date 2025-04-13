@@ -1,0 +1,87 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+        {
+          "type": "select",
+          "property": "custom_model_data",
+          "cases": [
+            {
+              "when": "crab_claw",
+              "model": {
+                "type": "select",
+                "property": "display_context",
+                "cases": [
+                  {
+                    "when": [
+                      "gui"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/we/knuckles/skin_layer/crab_claw/gui"
+                    }
+                  },
+                  {
+                    "when": [
+                      "ground",
+                      "fixed"
+                    ],
+                    "model": {
+                      "type": "model",
+                      "model": "ppg:item/empty"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "ppg:item/we/knuckles/skin_layer/crab_claw/iron"
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "select",
+            "property": "display_context",
+              "cases": [
+              {
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed"
+                ],
+                "model": {
+                  "type": "model",
+                  "model": "ppg:item/empty"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "ppg:item/we/knuckles/iron"
+            }
+          }
+        },
+        {
+          "type": "select",
+          "property": "display_context",
+            "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "model",
+                "model": "ppg:item/we/knuckles/iron"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "ppg:item/empty"
+          }
+        }
+    ]
+  }
+}

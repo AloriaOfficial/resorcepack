@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "display": {
+      "thirdperson_righthand": {
+          "rotation": [ -45, -90, 45 ],
+          "translation": [ 0, -1.75, 1.5 ],
+          "scale": [2, 2, 1 ]
+      },
+      "thirdperson_lefthand": {
+          "rotation": [ 0, 90, -45 ],
+          "translation": [ 0, 8, 1.5 ],
+          "scale": [2, 2, 1 ]
+      },
+      "firstperson_righthand": {
+          "rotation": [ -75, -85, 40 ],
+          "translation": [ 0, 3, 2 ],
+          "scale": [ 1, 1, 0.6 ]
+      },
+      "firstperson_lefthand": {
+          "rotation": [ 0, 105, -40 ],
+          "translation": [ 0, 3, 2 ],
+          "scale": [ 1, 1, 0.6 ]
+      }
+    },
+    "textures": {
+        "layer0": "ppg:item/we/twinblade/netherite"
+    }
+}

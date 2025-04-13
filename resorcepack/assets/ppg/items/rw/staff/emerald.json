@@ -1,0 +1,69 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+          {
+            "when": "Placeholder",
+            "model": {
+              "type": "select",
+              "property": "display_context",
+              "cases": [
+                {
+                  "when": [
+                    "gui"
+                  ],
+                  "model": {
+                    "type": "model",
+                    "model": "ppg:item/rw/relic/emerald_justice/charged_gui"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "ppg:item/empty"
+        }
+      },
+      {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+          {
+            "when": "Placeholder",
+            "model": {
+              "type": "minecraft:model",
+              "model": "ppg:item/empty"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "select",
+          "property": "display_context",
+            "cases": [
+            {
+              "when": [
+                "gui",
+                "ground",
+                "fixed"
+              ],
+              "model": {
+                "type": "model",
+                "model": "ppg:item/rw/staff/emerald/base_gui"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "model",
+            "model": "ppg:item/rw/staff/emerald/base"
+          }
+        }
+      }
+    ]
+  }
+}

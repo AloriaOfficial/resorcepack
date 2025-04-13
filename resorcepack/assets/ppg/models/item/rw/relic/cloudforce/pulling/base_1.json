@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "ppg:item/rw/relic/cloudforce/pulling/base_1"
+    }
+}

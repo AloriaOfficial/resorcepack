@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "select",
+    "property": "display_context",
+      "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "fixed"
+        ],
+        "model": {
+          "type": "model",
+          "model": "ppg:item/rw/relic/howling_thunder/sheath_gui"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "ppg:item/rw/relic/howling_thunder/sheath"
+    }
+  }
+}

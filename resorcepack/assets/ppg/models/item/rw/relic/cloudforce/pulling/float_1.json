@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld",
+    "display": {
+      "thirdperson_righthand": {
+          "rotation": [ 0, 90, -135 ],
+          "translation": [ 0, -2, 11 ],
+          "scale": [ 1.5, 1.5, 1 ]
+      },
+      "thirdperson_lefthand": {
+          "rotation": [ 0, -90, 135 ],
+          "translation": [ 0, -2, 11 ],
+          "scale": [ 1.5, 1.5, 1 ]
+      },
+      "firstperson_righthand": {
+          "rotation": [ 0, -90, 20 ],
+          "translation": [ 0, 1, 8 ],
+          "scale": [ 1, 1, 0.5 ]
+      },
+      "firstperson_lefthand": {
+          "rotation": [ 0, 90, -20 ],
+          "translation": [ 0, 1, 8 ],
+          "scale": [ 1, 1, 0.5 ]
+      }
+    },
+    "textures": {
+        "layer0": "ppg:item/rw/relic/cloudforce/pulling/float_1"
+    }
+}

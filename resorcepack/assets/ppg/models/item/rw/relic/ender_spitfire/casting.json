@@ -1,0 +1,26 @@
+{
+    "parent": "item/handheld",
+    "display": {
+      "thirdperson_righthand": {
+          "rotation": [ -25, -90, 45 ],
+          "translation": [ 0, -3, 2 ],
+          "scale": [ 2, 2, 1 ]
+      },
+      "thirdperson_lefthand": {
+          "rotation": [ -25, 90, -45 ],
+          "translation": [ 0, -3, 2 ],
+          "scale": [ 2, 2, 1 ]
+      },
+      "firstperson_righthand": {
+          "rotation": [ 0, -75, 80 ],
+          "translation": [ 2, 2, 2 ]
+      },
+      "firstperson_lefthand": {
+          "rotation": [ 0, 105, -40 ],
+          "translation": [ 2, 2, 2 ]
+      }
+    },
+    "textures": {
+        "layer0": "ppg:item/rw/relic/ender_spitfire/casting"
+    }
+}

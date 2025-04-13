@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "ppg:item/we/longsword/skin_layer/xmas_gui"
+    }
+}
